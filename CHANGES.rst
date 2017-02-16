@@ -18,6 +18,12 @@ New features:
   Part of PLIP 1343: https://github.com/plone/Products.CMFPlone/issues/1343
   [gforcada]
 
+- Make use of plone.namedfile's tag() function to generate img tags. Part of plip 1483.
+  [didrix]
+
+- Add retina scales settings in image handling. Part of plip 1483
+  [didrix]
+
 Bug fixes:
 
 - Remove unused ``plone.css`` from static repository.
@@ -106,12 +112,6 @@ Breaking changes:
   [gforcada]
 
 New features:
-
-- Make use of plone.namedfile's tag() function to generate img tags. Part of plip 1483.
-  [didrix]
-
-- Add retina scales settings in image handling. Part of plip 1483
-  [didrix]
 
 - Added ``ok`` view.  This is useful for automated checks, for example
   httpok, to see if the site is still available.  It returns the text
